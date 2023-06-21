@@ -20,7 +20,7 @@ namespace ExercicioContaBank
 
 		public ContaBancaria(int numero, string titular, double saldo) : this(numero, titular)
 		{
-			Saldo = saldo;
+			Deposito(saldo);
 		}
 
 		public void Deposito(double quantia)
